@@ -38,7 +38,7 @@ Set-PnPListInformationRightsManagement -List <ListPipeBind>
 
 ### ------------------EXAMPLE 1------------------
 ```powershell
-Set-PnPListInformationRightsManagement -List "Documents" -Enabled $true
+Set-PnPListInformationRightsManagement -List "Documents" -Enable $true
 ```
 
 Enables Information Rights Management (IRM) on the list.
